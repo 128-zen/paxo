@@ -1135,11 +1135,11 @@ ul {
 }
 
 .footer__social a:hover path {
-  fill: $secondary_button_color;
+  fill: $background_primary_color;
 }
 
 footer a:hover {
-  color: $secondary_button_color;
+  color: $background_primary_color;
 }
 
 .footer__list {
