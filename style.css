@@ -673,7 +673,6 @@ ul {
 .header {
   position: relative;
   z-index: 99;
-  background-color: $background_primary_color;
 }
 
 .header .container {
@@ -1378,7 +1377,6 @@ footer a:hover {
 /***** Hero component *****/
 .hero {
   overflow: hidden;
-  background-color: $background_primary_color;
   position: relative;
 }
 .hero .container {
