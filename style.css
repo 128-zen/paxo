@@ -1495,11 +1495,12 @@ footer a:hover {
   line-height: 140%;
   padding: 4px 8px;
   border-radius: 8px;
-  background-color: $background_secondary_color;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   color: $headings_primary;
 }
 
 .popular-keywords a:hover {
+  border: 1px solid $secondary_button_color;
   background-color: $secondary_button_color;
   color: $headings_primary;
 }
