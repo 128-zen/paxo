@@ -1377,15 +1377,13 @@ footer a:hover {
 }
 .hero .container {
   display: flex;
-  justify-content: flex-start;
-  padding-top: 120px;
-  padding-bottom: 200px;
+  justify-content: center;
 }
 
 .hero__content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   max-width: 900px;
   width: 100%;
   z-index: 3;
@@ -1466,14 +1464,14 @@ footer a:hover {
   letter-spacing: 0.63px;
   cursor: pointer;
   transition: all .3s ease;
-  border: 1px solid $primary_button_color;
   background-color: $primary_button_color;
-  color: $body_secondary;
+  border: 1px solid $primary_button_color;
+  color: $headings_primary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
   background-color: $background_primary_color;
-  border: 1px solid $primary_button_color;
-  color: $headings_primary;
+  border: 1px solid $background_primary_color;
+  color: $headings_secondary;
 }
 .hero .search-icon, .error-page .search-icon {
   left: 20px;
