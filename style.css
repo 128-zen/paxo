@@ -1078,11 +1078,13 @@ ul {
 
 .submit-request h2 {
   margin-bottom: 20px;
+  color: $headings_secondary;
 }
 
 .submit-request p {
   font-size: 18px;
   margin-bottom: 40px;
+  color: $body_secondary;
 }
 
 @media (max-width: 1279px) {
@@ -1110,7 +1112,7 @@ ul {
 
 .footer__top p {
   max-width: 440px;
-  color: $body_secondary;
+  color: $headings_secondary;
 }
 
 
@@ -1129,7 +1131,7 @@ ul {
   height: auto;
 }
 .footer__social path {
-  fill: $body_secondary;
+  fill: $headings_secondary;
 }
 
 .footer__social a:hover path {
@@ -1147,7 +1149,7 @@ footer a:hover {
 }
 
 .footer__list a {
-  color: $body_secondary;
+  color: $headings_secondary;
 }
 
 .footer__bottom .container {
@@ -1164,11 +1166,11 @@ footer a:hover {
 }
 
 .footer__bottom p {
-  color: $body_secondary;
+  color: $headings_secondary;
 }
 
 .footer__right a {
-  color: $body_secondary;
+  color: $headings_secondary;
 }
 
 @media (max-width: 1199px) {
