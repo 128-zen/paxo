@@ -1384,6 +1384,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   max-width: 900px;
   width: 100%;
   z-index: 3;
@@ -1751,8 +1752,7 @@ footer a:hover {
 /* Introduction */
 
 .introduction {
-  background-color: $background_secondary_color;
-  padding-bottom: 120px
+
 }
 
 .introduction__items {
