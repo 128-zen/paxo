@@ -1149,6 +1149,7 @@ footer a:hover {
 }
 
 .footer__list a {
+  font-weight: 700;
   color: $headings_secondary;
 }
 
@@ -1170,6 +1171,7 @@ footer a:hover {
 }
 
 .footer__right a {
+  font-weight: 700;
   color: $headings_secondary;
 }
 
