@@ -1,0 +1,256 @@
+{{!-- Top Banner Section --}}
+<section id="main-content" class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1 class="hero-text fade-in-up">{{settings.hero_heading}}</h1>
+      {{#if settings.show_hero_text}}
+        <p class="p-large fade-in-up">{{settings.hero_text}}</p>
+      {{/if}}
+      <div class="hero-inner fade-in-up">
+        <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+          <path d="M15.49 14.645L12.24 11.395H12.205C13.2068 10.2139 13.713 8.69119 13.6178 7.1454C13.5226 5.59961 12.8334 4.15049 11.6943 3.10119C10.5553 2.05189 9.05456 1.48368 7.50616 1.51542C5.95777 1.54717 4.48162 2.17641 3.38651 3.27152C2.2914 4.36663 1.66216 5.84278 1.63041 7.39117C1.59867 8.93957 2.16688 10.4403 3.21618 11.5793C4.26548 12.7184 5.7146 13.4076 7.26039 13.5028C8.80618 13.598 10.3289 13.0918 11.51 12.09C11.51 12.09 11.51 12.115 11.51 12.125L14.76 15.375C14.8065 15.4219 14.8618 15.4591 14.9227 15.4845C14.9837 15.5099 15.049 15.5229 15.115 15.5229C15.181 15.5229 15.2464 15.5099 15.3073 15.4845C15.3683 15.4591 15.4236 15.4219 15.47 15.375C15.5213 15.3297 15.5627 15.2742 15.5917 15.2122C15.6206 15.1502 15.6365 15.0828 15.6384 15.0144C15.6403 14.9459 15.6281 14.8778 15.6026 14.8143C15.577 14.7508 15.5387 14.6932 15.49 14.645ZM7.63504 12.5C6.64613 12.5 5.67943 12.2068 4.85719 11.6574C4.03494 11.108 3.39408 10.3271 3.01564 9.41346C2.6372 8.49983 2.53818 7.4945 2.73111 6.5246C2.92404 5.55469 3.40024 4.66378 4.0995 3.96451C4.79877 3.26525 5.68968 2.78905 6.65959 2.59612C7.62949 2.40319 8.63482 2.50221 9.54845 2.88065C10.4621 3.25909 11.243 3.89995 11.7924 4.7222C12.3418 5.54444 12.635 6.51114 12.635 7.50005C12.635 8.15666 12.5057 8.80684 12.2544 9.41346C12.0032 10.0201 11.6349 10.5713 11.1706 11.0356C10.7063 11.4999 10.1551 11.8682 9.54845 12.1194C8.94183 12.3707 8.29165 12.5 7.63504 12.5Z" fill="#686B71"/>
+        </svg>
+        {{search instant=settings.instant_search class='search search-full'}}
+      </div>
+      {{#if settings.show_popular_keywords}}
+        <div class="popular-keywords fade-in-up" data-keywords="{{settings.popular_keywords}}">
+          <p>{{settings.popular_keywords_description}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+  <svg width="534" height="525" viewBox="0 0 534 525" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_9305_1167)">
+      <path class="bg-color-one" d="M482.234 293.329V403.655L515.954 420.515V310.189L482.234 293.329Z" fill="white"/>
+      <path class="bg-color-two" d="M516.118 310.189H515.954V420.515L516.118 420.679L550.001 403.655V293.329L516.118 310.189Z" fill="#FEF0E0"/>
+      <path class="bg-color-one" d="M90.0374 269.267V305.442L140.452 330.649V294.311L90.0374 269.267Z" fill="white"/>
+      <path class="bg-color-two" d="M140.617 294.475L140.453 294.311V330.649H140.617L191.196 305.442V269.267L140.617 294.475Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M140.617 294.475L191.197 269.267L140.617 243.896L90.0374 269.267L140.453 294.311L140.617 294.475Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M191.197 181.857V418.387L241.613 443.595V207.065L191.197 181.857Z" fill="white"/>
+      <path class="bg-color-two" d="M241.777 207.065H241.613V443.595H241.777L292.356 418.387V181.857L241.777 207.065Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M241.776 207.066L292.356 181.858L241.776 156.65L191.197 181.858L241.613 207.066H241.776Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M284.008 418.387V654.916L334.587 680.124V443.595L284.008 418.387Z" fill="white"/>
+      <path class="bg-color-two" d="M334.751 443.595H334.588V680.124H334.751L385.331 654.916V418.387L334.751 443.595Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M334.751 443.595L385.331 418.387L334.751 393.179L284.008 418.387L334.587 443.595H334.751Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M241.94 174.492V313.791L316.255 350.948V211.649L241.94 174.492Z" fill="white"/>
+      <path class="bg-color-two" d="M316.418 211.649H316.255V350.948H316.418L390.897 313.791V174.492L316.418 211.649Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M316.418 211.649L390.896 174.492L316.418 137.498L241.94 174.492L316.255 211.649H316.418Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M167.462 298.567V351.766L241.776 388.923V335.561L167.462 298.567Z" fill="white"/>
+      <path class="bg-color-two" d="M241.94 335.561H241.776V388.923H241.94L316.255 351.766V298.567L241.94 335.561Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M241.94 335.561L316.255 298.567L241.94 261.41L167.462 298.567L241.776 335.561H241.94Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M215.586 15.8772V25.5346L247.014 41.2484V31.591L215.586 15.8772Z" fill="white"/>
+      <path class="bg-color-two" d="M247.178 31.5915H247.014V41.2489L247.178 41.4126L278.769 25.5351V15.8777L247.178 31.5915Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M247.178 31.5913L278.769 15.8775L247.178 0L215.586 15.8775L247.014 31.5913H247.178Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M70.7222 142.736V160.25L127.194 188.404V170.89L70.7222 142.736Z" fill="white"/>
+      <path class="bg-color-two" d="M127.195 170.89V188.404L183.666 160.25V142.736L127.195 170.89Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M127.195 170.89L183.667 142.736L127.195 114.582L70.7222 142.736L127.195 170.89Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M465.538 418.387V454.561L515.953 479.769V443.594L465.538 418.387Z" fill="white"/>
+      <path class="bg-color-two" d="M516.118 443.594H515.954V479.769H516.118L566.697 454.561V418.387L516.118 443.594Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M516.118 443.595L566.698 418.387L516.118 393.179L465.538 418.387L515.954 443.595H516.118Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M465.538 113.108V149.283L515.953 174.49V138.316L465.538 113.108Z" fill="white"/>
+      <path class="bg-color-two" d="M516.118 138.316H515.954V174.49H516.118L566.697 149.283V113.108L516.118 138.316Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M516.118 138.317L566.698 113.109L516.118 87.9006L465.538 113.109L515.954 138.317H516.118Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M465.538 486.154V522.329L515.953 547.536V511.198L465.538 486.154Z" fill="white"/>
+      <path class="bg-color-two" d="M516.118 511.362L515.954 511.198V547.536H516.118L566.697 522.329V486.154L516.118 511.362Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M516.118 511.362L566.698 486.154L516.118 460.782L465.538 486.154L515.954 511.198L516.118 511.362Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M0.5 463.074V527.077L89.8738 571.6V507.598L0.5 463.074Z" fill="white"/>
+      <path class="bg-color-two" d="M90.0375 507.598H89.8738V571.6L90.0375 571.764L179.575 527.077V463.074L90.0375 507.598Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M90.0375 507.598L179.575 463.074L90.0375 418.387L0.5 463.074L89.8738 507.598H90.0375Z" fill="#FFF6EC"/>
+      <path class="bg-color-two" d="M465.538 200.026H465.375V236.201H465.538L516.117 210.993V174.819L465.538 200.026Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M465.538 200.027L516.118 174.819L465.538 149.611L414.795 174.819L465.375 200.027H465.538Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M391.06 223.598V313.954L465.375 350.948V260.755L391.06 223.598Z" fill="white"/>
+      <path class="bg-color-two" d="M465.538 260.755H465.375V350.948H465.538L539.853 313.954V223.598L465.538 260.755Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M465.538 260.755L539.853 223.598L465.538 186.604L391.06 223.598L465.375 260.755H465.538Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M316.255 350.947V491.392L390.569 528.385V387.941L316.255 350.947Z" fill="white"/>
+      <path class="bg-color-two" d="M390.733 388.104L390.569 387.941V528.385H390.733L465.211 491.392V350.947L390.733 388.104Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M390.733 388.105L465.211 350.948L390.733 313.79L316.255 350.948L390.569 387.941L390.733 388.105Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M316.418 37.157V276.797L390.733 313.79V74.1505L316.418 37.157Z" fill="white"/>
+      <path class="bg-color-two" d="M390.896 74.3142L390.733 74.1505V313.79L390.896 313.954L465.375 276.797V37.157L390.896 74.3142Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M390.896 74.3145L465.375 37.1572L390.896 0L316.418 37.1572L390.733 74.1508L390.896 74.3145Z" fill="#FFF6EC"/>
+      <path class="bg-color-one" d="M196.599 410.203V575.037L247.015 600.245V435.41L196.599 410.203Z" fill="white"/>
+      <path class="bg-color-two" d="M247.178 435.41H247.014V600.245H247.178L297.758 575.037V410.203L247.178 435.41Z" fill="#FEF0E0"/>
+      <path class="bg-color-three" d="M247.178 435.411L297.758 410.203L247.178 384.995L196.599 410.203L247.015 435.411H247.178Z" fill="#FFF6EC"/>
+    </g>
+    <defs>
+      <clipPath id="clip0_9305_1167">
+        <rect width="534" height="528" fill="white" transform="translate(0.5)"/>
+      </clipPath>
+    </defs>
+  </svg>
+</section>
+
+{{!-- Introduction Section --}}
+<section class="introduction section">
+  <div class="container">
+    <div class="introduction__items">
+      <div class="introduction__item fade-in-up">
+        <div>
+          <img src="{{settings.second_section_item1_img}}" alt="image">
+        </div>
+        <h5><a href="{{settings.second_section_item1_link}}">{{settings.second_section_item1_heading}}</a></h5>
+        <p>{{settings.second_section_item1_subtitle}}</p>
+      </div>
+      <div class="introduction__item fade-in-up">
+        <div>
+          <img src="{{settings.second_section_item2_img}}" alt="image">
+        </div>
+        <h5><a href="{{settings.second_section_item2_link}}">{{settings.second_section_item2_heading}}</a></h5>
+        <p>{{settings.second_section_item2_subtitle}}</p>
+      </div>
+      <div class="introduction__item fade-in-up">
+        <div>
+          <img src="{{settings.second_section_item3_img}}" alt="image">
+        </div>
+        <h5><a href="{{settings.second_section_item3_link}}">{{settings.second_section_item3_heading}}</a></h5>
+        <p>{{settings.second_section_item3_subtitle}}</p>
+      </div>
+      <div class="introduction__item fade-in-up">
+        <div>
+          <img src="{{settings.second_section_item4_img}}" alt="image">
+        </div>
+        <h5><a href="{{settings.second_section_item4_link}}">{{settings.second_section_item4_heading}}</a></h5>
+        <p>{{settings.second_section_item4_subtitle}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{!-- Categories Section --}}
+<section class="categories section">
+  <div class="container">
+    {{#each categories}}
+      <div class="categories__item">
+        <div class="categories__head">
+          <h2 class="fade-in-up">{{name}}</h2>
+          <div class="fade-in-up">
+            <a class="button button-primary" href="{{url}}">{{t 'see_all_sections'}}</a>
+          </div>
+        </div>
+        <div class="categories__sections">
+          {{#each sections}}
+            <div class="categories__section fade-in-up">
+              <div>
+                <h6><a href="{{url}}">{{name}}</a></h6>
+                <ul>
+                  {{#each articles}}
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <path d="M13.3906 5.85938C12.6368 5.85938 12.0234 5.24605 12.0234 4.49219V0H5.03125C3.8466 0 2.88281 0.963789 2.88281 2.14844V17.8516C2.88281 19.0362 3.8466 20 5.03125 20H15.9688C17.1534 20 18.1172 19.0362 18.1172 17.8516V5.85938H13.3906ZM6.08594 14.0625H8.92656C9.25016 14.0625 9.5125 14.3248 9.5125 14.6484C9.5125 14.972 9.25016 15.2344 8.92656 15.2344H6.08594C5.76234 15.2344 5.5 14.972 5.5 14.6484C5.5 14.3248 5.76234 14.0625 6.08594 14.0625ZM5.5 11.5234C5.5 11.1998 5.76234 10.9375 6.08594 10.9375H14.6797C15.0033 10.9375 15.2656 11.1998 15.2656 11.5234C15.2656 11.847 15.0033 12.1094 14.6797 12.1094H6.08594C5.76234 12.1094 5.5 11.847 5.5 11.5234ZM14.6797 7.8125C15.0033 7.8125 15.2656 8.07484 15.2656 8.39844C15.2656 8.72203 15.0033 8.98438 14.6797 8.98438H6.08594C5.76234 8.98438 5.5 8.72203 5.5 8.39844C5.5 8.07484 5.76234 7.8125 6.08594 7.8125H14.6797Z" fill="#B9E97D"/>
+                      <path d="M13.1953 4.49219C13.1953 4.59989 13.2829 4.6875 13.3906 4.6875H17.856C17.7488 4.48961 17.6109 4.30785 17.4453 4.1511L13.6788 0.587738C13.5326 0.449457 13.3698 0.334105 13.1954 0.243011V4.49219H13.1953Z" fill="#B9E97D"/>
+                    </svg>
+                    <a href="{{url}}">{{title}}</a>
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+              <a class="button button-secondary" href="{{url}}">{{t 'show_all_articles'}}</a>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="82" height="59" viewBox="0 0 82 59" fill="none">
+    <path class="bg-color-one" d="M81.1323 22.1476V35.9252L36.7092 58.0724V44.2948L81.1323 22.1476Z" fill="white"/>
+    <path class="bg-color-two" d="M36.7085 44.2948V58.0724L-7.71463 35.9252V22.1476L36.7085 44.2948Z" fill="#FEF0E0"/>
+    <path class="bg-color-three" d="M36.7084 44.2951L-7.71547 22.1476L36.7084 0L81.1323 22.1476L36.7084 44.2951Z" fill="#FFF6EC"/>
+  </svg>
+</section>
+
+
+
+{{!-- Quick Links Section --}}
+<section class="find-solution section">
+  <div class="container">
+    <h2>{{settings.find_solution_heading}}</h2>
+    <p>{{settings.find_solution_subtitle}}</p>
+    <div class="find-solution__items">
+      <div class="find-solution__item fade-in-up">
+        <div class="find-solution__head">
+          <div>
+            <img src="{{settings.find_solution_item1_img}}" alt="item">
+          </div>
+          <h4><a href="{{settings.find_solution_item1_link}}">{{settings.find_solution_item1_heading}}</a></h4>
+        </div>
+        <p class="p-small">{{settings.find_solution_item1_text}}</p>
+        <a href="{{settings.find_solution_item1_link}}">
+          {{settings.find_solution_item1_link_text}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+            <path d="M1.5 5.5H10.5M10.5 5.5L6.5625 1.5M10.5 5.5L6.5625 9.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="find-solution__item fade-in-up">
+        <div class="find-solution__head">
+          <div>
+            <img src="{{settings.find_solution_item2_img}}" alt="item">
+          </div>
+          <h4><a href="{{settings.find_solution_item2_link}}">{{settings.find_solution_item2_heading}}</a></h4>
+        </div>
+        <p class="p-small">{{settings.find_solution_item2_text}}</p>
+        <a href="{{settings.find_solution_item2_link}}">
+          {{settings.find_solution_item2_link_text}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+            <path d="M1.5 5.5H10.5M10.5 5.5L6.5625 1.5M10.5 5.5L6.5625 9.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="find-solution__item fade-in-up">
+        <div class="find-solution__head">
+          <div>
+            <img src="{{settings.find_solution_item3_img}}" alt="item">
+          </div>
+          <h4><a href="{{settings.find_solution_item3_link}}">{{settings.find_solution_item3_heading}}</a></h4>
+        </div>
+        <p class="p-small">{{settings.find_solution_item3_text}}</p>
+        <a href="{{settings.find_solution_item3_link}}">
+          {{settings.find_solution_item3_link_text}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+            <path d="M1.5 5.5H10.5M10.5 5.5L6.5625 1.5M10.5 5.5L6.5625 9.5" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="92" height="88" viewBox="0 0 92 88" fill="none">
+    <path class="bg-color-one"  d="M102.22 25.5951V61.8093L51.6499 87.0019V50.7876L102.22 25.5951Z" fill="white"/>
+    <path class="bg-color-two" d="M51.5573 50.7876H51.6499V87.0019L51.5573 87.0945L0.89436 61.8094V25.5951L51.5573 50.7876Z" fill="#FEF0E0"/>
+    <path class="bg-color-three" d="M51.5573 50.7875L0.894394 25.5949L51.5573 0.309814L102.22 25.5949L51.6499 50.7875H51.5573Z" fill="#FFF6EC"/>
+  </svg>
+</section>
+
+{{!-- Promoted Articles --}}
+{{#if promoted_articles}}
+  <section class="promoted-articles">
+    <div class="container section">
+      <div class="promoted-articles__head">
+        <h2 class="fade-in-up">{{settings.fourth_section_heading}}</h2>
+        <div class="fade-in-up">
+          <a class="button button-primary" href="{{settings.fourth_section_button_link}}">{{settings.fourth_section_button}}</a>
+        </div>
+      </div>
+      <div class="promoted-articles__items">
+        {{#each promoted_articles}}
+          <div class="promoted-articles__item fade-in-up">
+            <div>
+              <img src="{{author.avatar_url}}">
+              <div class="meta-group">
+                {{#is created_at edited_at}}
+                  <p class="meta-data">{{date created_at timeago=true}}</p>
+                {{else}}
+                  <p class="meta-data">{{date edited_at timeago=true}}</p>
+                {{/is}}
+              </div>
+            </div>
+            <h6><a href="{{url}}">{{title}}</a></h6>
+            <div>{{body}}</div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+
+  </section>
+{{/if}}
+
+
