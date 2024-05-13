@@ -680,7 +680,7 @@ ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  height: 81px;
+  height: 88px;
 }
 
 .header__lists {
@@ -6423,7 +6423,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 .dropdown-menu [role=menuitem]:hover,
 .dropdown-menu [role=menuitemradio]:hover {
-  color: #2f3941;;
+  color: $hover_link_color;
 }
 .dropdown-menu [role=menuitem][aria-selected=true], .dropdown-menu [role=menuitem][aria-checked=true],
 .dropdown-menu [role=menuitemradio][aria-selected=true],
