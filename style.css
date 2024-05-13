@@ -1497,7 +1497,7 @@ footer a:hover {
   padding: 4px 8px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  color: $headings_primary;
+  color: $headings_secondary;
 }
 
 .popular-keywords a:hover {
@@ -1775,7 +1775,7 @@ footer a:hover {
   padding: 22px;
   line-height: normal;
   font-size: 0;
-  background-color: $containers_background_color;
+  background-color: $background_secondary_color;
 }
 
 .introduction__item img {
