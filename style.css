@@ -2551,10 +2551,6 @@ footer a:hover {
   .category-page__article {
     width: calc(50% - 15px);
   }
-  .category-page .hero > svg:nth-of-type(1), .category-page .hero > svg:nth-of-type(2) {
-    width: auto;
-    opacity: .8;
-  }
   .category-page__content {
     padding-bottom: 320px;
   }
@@ -2573,12 +2569,6 @@ footer a:hover {
   }
   .category-page__article {
     width: 100%;
-  }
-  .category-page .hero > svg:nth-of-type(1), .category-page .hero > svg:nth-of-type(2) {
-    opacity: .5;
-  }
-  .category-page .hero > svg:nth-of-type(2) {
-    bottom: 60px;
   }
 }
 
