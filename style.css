@@ -1935,8 +1935,7 @@ footer a:hover {
 /* Find Solution */
 
 .find-solution {
-  position: relative;
-  background-color: $background_primary_color;
+  padding-bottom: 360px;
 }
 
 .find-solution > svg {
@@ -2010,6 +2009,15 @@ footer a:hover {
 }
 
 @media (max-width: 1023px) {
+  .find-solution {
+    padding-bottom: 340px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .find-solution {
+    padding-bottom: 320px;
+  }
   .find-solution__items {
     margin-top: 40px;
   }
@@ -2018,6 +2026,9 @@ footer a:hover {
   }
 }
 @media (max-width: 767px) {
+  .find-solution {
+    padding-bottom: 300px;
+  }
   .find-solution__items {
     gap: 20px;
   }
@@ -2289,7 +2300,7 @@ footer a:hover {
   line-height: normal;
   padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  color: $headings_secondary;
+  color: $headings_primary;
   border-radius: 8px;
 }
 
