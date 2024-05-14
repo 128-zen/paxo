@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -91,13 +91,6 @@
           "description": "Choose the primary color for the hover state of the links",
           "label": "Hover Link Primary Color",
           "value": "#404EED"
-        },
-        {
-          "identifier": "bg_svg_color",
-          "type": "color",
-          "description": "Choose the color for backgroung image",
-          "label": "Background Image Color",
-          "value": "#12221B"
         }
       ]
     },
@@ -422,6 +415,13 @@
           "description": "Show hero subtitle",
           "label": "Toggle Subtitle Component",
           "value": true
+        },
+        {
+          "identifier": "bg_svg_color1",
+          "type": "color",
+          "description": "Choose the color for backgroung image in the banner",
+          "label": "Background Image Color",
+          "value": "#D8DCFD"
         }
       ]
     },
@@ -561,6 +561,13 @@
           "description": "Insert link",
           "label": "Section Button Link",
           "value": "#"
+        },
+        {
+          "identifier": "bg_svg_color2",
+          "type": "color",
+          "description": "Choose the color for backgroung image in the Promoted articles section",
+          "label": "Background Image Color",
+          "value": "#12221B"
         }
       ]
     },

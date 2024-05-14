@@ -1408,6 +1408,10 @@ footer a:hover {
   left: auto;
 }
 
+.hero > svg path {
+  fill: $bg_svg_color1;
+}
+
 @media (max-width: 1279px) {
   .hero-text {
     font-size: 50px;
@@ -1736,19 +1740,6 @@ footer a:hover {
   }
 }
 
-/* Color background image */
-.bg-color-one {
-  fill: $bg_svg_color1;
-}
-
-.bg-color-two {
-  fill: $bg_svg_color2;
-}
-
-.bg-color-three {
-  fill: $bg_svg_color3;
-}
-
 
 /* Introduction */
 
@@ -2069,7 +2060,7 @@ footer a:hover {
 }
 
 .promoted-articles svg path {
-  fill: $bg_svg_color;
+  fill: $bg_svg_color2;
 }
 
 .promoted-articles__head {
