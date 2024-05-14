@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -91,6 +91,13 @@
           "description": "Choose the primary color for the hover state of the links",
           "label": "Hover Link Primary Color",
           "value": "#404EED"
+        },
+        {
+          "identifier": "bg_svg_color",
+          "type": "color",
+          "description": "Choose the color for backgroung image",
+          "label": "Background Image Color",
+          "value": "#12221B"
         }
       ]
     },
