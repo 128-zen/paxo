@@ -1378,6 +1378,7 @@ footer a:hover {
 .hero .container {
   display: flex;
   justify-content: center;
+  padding-top: 120px;
 }
 
 .hero__content {
@@ -1405,11 +1406,19 @@ footer a:hover {
   .hero-text {
     font-size: 50px;
   }
+  .hero .container {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 1023px) {
-  
+  .hero .container {
+    padding-top: 80px;
+  }
 }
 @media (max-width: 767px) {
+  .hero .container {
+    padding-top: 60px;
+  }
   .hero__content {
     max-width: 595px;
     width: 100%;
@@ -1707,21 +1716,21 @@ footer a:hover {
 
 /***** Home page *****/
 .section {
-  padding-top: 120px;
+  padding-bottom: 120px;
 }
 @media (max-width: 1279px) {
   .section {
-    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 @media (max-width: 1023px) {
   .section {
-    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 @media (max-width: 767px) {
   .section {
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -2026,7 +2035,7 @@ footer a:hover {
 .promoted-articles {
   position: relative;
   overflow: hidden;
-  padding-bottom: 120px;
+  padding-top: 120px;
   background-color: $background_secondary_color;
 }
 
@@ -2099,13 +2108,13 @@ footer a:hover {
 
 @media (max-width: 1279px) {
   .promoted-articles {
-    padding-bottom: 100px;
+    padding-top: 100px;
   }
 }
 
 @media (max-width: 1023px) {
   .promoted-articles {
-    padding-bottom: 80px;
+    padding-top: 80px;
   }
   .promoted-articles__head {
     margin-bottom: 40px;
@@ -2116,7 +2125,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .promoted-articles {
-    padding-bottom: 60px;
+    padding-top: 60px;
   }
   .promoted-articles__head {
     flex-direction: column;
