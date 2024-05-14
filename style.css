@@ -1847,12 +1847,8 @@ footer a:hover {
   width: fit-content;
 }
 
-.categories__section h6 {
+.categories__section h6 > a {
   color: $headings_secondary;
-}
-
-.categories__section p {
-  color: $body_secondary;
 }
 
 .categories__item:nth-child(n+7) {
@@ -1876,15 +1872,15 @@ footer a:hover {
 }
 
 .categories__item li a {
-  color: $body_primary;
+  color: $body_secondary;
 }
 
-.categories__item li a:hover {
-  color: $headings_primary;
+.categories__item li a:hover, .categories__section h6 > a:hover {
+  color: $hover_link_color;
 }
 
 .categories__item li svg path {
-  fill: $headings_primary;
+  fill: $body_secondary;
 }
 
 .categories__item li:nth-child(3) {
