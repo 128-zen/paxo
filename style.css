@@ -2288,14 +2288,15 @@ footer a:hover {
   font-weight: 400;
   line-height: normal;
   padding: 5px 10px;
-  background-color: $background_secondary_color;
-  color: $headings_primary;
-  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: $headings_secondary;
+  border-radius: 8px;
 }
 
 .recent-activity-item-parent:hover {
+  border: 1px solid $secondary_button_color;
   background-color: $secondary_button_color;
-  color: $headings_primary;
+  color: $headings_secondary;
 }
 
 .recent-activity-item-link {
