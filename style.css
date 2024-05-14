@@ -1808,9 +1808,7 @@ footer a:hover {
 
 /* Explore Topics */
 .categories {
-  position: relative;
-  overflow: hidden;
-  background-color: $background_primary_color;
+  
 }
 
 .categories .container {
@@ -1819,12 +1817,6 @@ footer a:hover {
   gap: 80px;
   position: relative;
   z-index: 1;
-}
-
-.categories > svg {
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 .categories__head {
