@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -539,6 +539,32 @@
       ]
     },
     {
+      "label": "Homepage Promoted Articles Section",
+      "variables": [
+        {
+          "identifier": "fourth_section_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Section Heading",
+          "value": "Promoted articles"
+        },       
+        {
+          "identifier": "fourth_section_button",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Section Button Text",
+          "value": "View all"
+        },
+        {
+          "identifier": "fourth_section_button_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Section Button Link",
+          "value": "#"
+        }
+      ]
+    },
+    {
       "label": "Homepage Find Solution Section",
       "variables": [
         {
@@ -655,32 +681,6 @@
           "type": "text",
           "description": "Insert link",
           "label": "Item 3 Link",
-          "value": "#"
-        }
-      ]
-    },
-    {
-      "label": "Homepage Promoted Articles Section",
-      "variables": [
-        {
-          "identifier": "fourth_section_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Section Heading",
-          "value": "Promoted articles"
-        },       
-        {
-          "identifier": "fourth_section_button",
-          "type": "text",
-          "description": "Enter text",
-          "label": "Section Button Text",
-          "value": "View all"
-        },
-        {
-          "identifier": "fourth_section_button_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Section Button Link",
           "value": "#"
         }
       ]
