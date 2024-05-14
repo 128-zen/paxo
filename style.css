@@ -1372,13 +1372,14 @@ footer a:hover {
 
 /***** Hero component *****/
 .hero {
+  margin-top: -88px;
   overflow: hidden;
   position: relative;
 }
 .hero .container {
   display: flex;
   justify-content: center;
-  padding-top: 120px;
+  padding-top: 208px;
 }
 
 .hero__content {
@@ -1412,17 +1413,17 @@ footer a:hover {
     font-size: 50px;
   }
   .hero .container {
-    padding-top: 100px;
+    padding-top: 188px;
   }
 }
 @media (max-width: 1023px) {
   .hero .container {
-    padding-top: 80px;
+    padding-top: 168px;
   }
 }
 @media (max-width: 767px) {
   .hero .container {
-    padding-top: 60px;
+    padding-top: 148px;
   }
   .hero__content {
     max-width: 595px;
