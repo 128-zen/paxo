@@ -2034,8 +2034,8 @@ footer a:hover {
 
 /***** Promoted articles *****/
 .promoted-articles {
-  padding-bottom: 360px;
-  background-color: $background_primary_color;
+  padding-bottom: 120px;
+  background-color: $background_secondary_color;
 }
 
 .promoted-articles__head {
@@ -2047,15 +2047,15 @@ footer a:hover {
 
 .promoted-articles__items {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
 .promoted-articles__item {
-  width: calc(33.3% - 20px);
+  width: calc(33.3% - 40px);
   padding: 30px;
-  border-radius: 20px;
-  background-color: $background_secondary_color;
+  border-radius: 8px;
+  background-color: $containers_background_color;
 }
 
 .promoted-articles__item:nth-child(n+7) {
@@ -2083,24 +2083,24 @@ footer a:hover {
 
 @media (max-width: 1279px) {
   .promoted-articles {
-    padding-bottom: 340px;
+    padding-bottom: 100px;
   }
 }
 
 @media (max-width: 1023px) {
   .promoted-articles {
-    padding-bottom: 320px;
+    padding-bottom: 80px;
   }
   .promoted-articles__head {
     margin-bottom: 40px;
   }
   .promoted-articles__item {
-    width: calc(50% - 15px);
+    width: calc(50% - 30px);
   }
 }
 @media (max-width: 767px) {
   .promoted-articles {
-    padding-bottom: 300px;
+    padding-bottom: 60px;
   }
   .promoted-articles__head {
     flex-direction: column;
