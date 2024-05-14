@@ -1398,8 +1398,13 @@ footer a:hover {
 
 .hero > svg {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
+}
+
+.hero > svg:last-child {
+  right: 0;
+  left: auto;
 }
 
 @media (max-width: 1279px) {
@@ -1426,10 +1431,6 @@ footer a:hover {
   }
   .hero__content p {
     margin-bottom: 40px;
-  }
-  .hero > svg  {
-    width: 80%;
-    height: auto;
   }
 }
 
