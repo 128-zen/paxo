@@ -1808,7 +1808,7 @@ footer a:hover {
 
 /* Explore Topics */
 .categories {
-  
+  padding-bottom: 120px;
 }
 
 .categories .container {
@@ -1891,7 +1891,16 @@ footer a:hover {
   display: none;
 }
 
+@media (max-width: 1279px) {
+  .categories {
+    padding-bottom: 100px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .categories {
+    padding-bottom: 80px;
+  }
   .categories__head {
     flex-direction: column;
     gap: 20px;
@@ -1909,6 +1918,9 @@ footer a:hover {
   }
 }
 @media (max-width: 767px) {
+  .categories {
+    padding-bottom: 60px;
+  }
   .categories__sections {
     gap: 20px;
   }
