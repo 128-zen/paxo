@@ -1407,19 +1407,9 @@ footer a:hover {
   }
 }
 @media (max-width: 1023px) {
-  .hero .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  .hero > svg  {
-    opacity: .5;
-  }
+  
 }
 @media (max-width: 767px) {
-  .hero .container {
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
   .hero__content {
     max-width: 595px;
     width: 100%;
@@ -2276,6 +2266,10 @@ footer a:hover {
   color: $headings_primary;
 }
 
+.homepage-activity .recent-activity-item:nth-child(n+4) {
+  display: none;
+}
+
 .recent-activity-item h3 {
   margin-bottom: 30px;
 }
@@ -2330,6 +2324,10 @@ footer a:hover {
 }
 .recent-activity-controls {
   padding-top: 30px;
+}
+
+.homepage-activity .recent-activity-controls {
+  display: none!important;
 }
 
 .recent-activity-controls a {
