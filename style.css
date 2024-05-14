@@ -2034,8 +2034,21 @@ footer a:hover {
 
 /***** Promoted articles *****/
 .promoted-articles {
+  position: relative;
+  overflow: hidden;
   padding-bottom: 120px;
   background-color: $background_secondary_color;
+}
+
+.promoted-articles svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.promoted-articles svg:last-child {
+  left: auto;
+  right: 0;
 }
 
 .promoted-articles__head {
@@ -2043,6 +2056,10 @@ footer a:hover {
   gap: 40px;
   justify-content: space-between;
   margin-bottom: 60px;
+}
+
+.promoted-articles__head h2 {
+  color: $headings_secondary;
 }
 
 .promoted-articles__items {
