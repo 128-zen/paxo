@@ -2672,7 +2672,7 @@ footer a:hover {
 
 .nav__sections a.active {
   color: $hover_link_color;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav__sections a.active:hover {
