@@ -2898,7 +2898,7 @@ footer a:hover {
 
 .article-meta a, .post-meta a {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.18px;
     color: $headings_primary;
