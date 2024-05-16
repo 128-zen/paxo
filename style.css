@@ -4037,7 +4037,7 @@ footer a:hover {
   margin: 10px 0;
 }
 .striped-list-item .meta-group a {
-  font-weight: 600;
+  font-weight: 700;
   color: $hover_link_color;
 }
 .striped-list-item .meta-group a:hover {
