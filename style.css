@@ -2802,7 +2802,7 @@ footer a:hover {
   flex-direction: column;
   align-items: start;
   border-radius: 8px;
-  background: $background_primary_color;
+  background: $containers_background_color;
 }
 
 .nav__articles li {
@@ -3060,7 +3060,7 @@ footer a:hover {
   color: $body_primary;
 }
 .article-body blockquote h2, .article-body blockquote h3, .article-body blockquote h4, .post-body blockquote h2, .post-body blockquote h3, .post-body blockquote h4 {
-  color: $hover_link_color;
+  color: $headings_primary;
 }
 .article-body > p:last-child {
   margin-bottom: 0;
