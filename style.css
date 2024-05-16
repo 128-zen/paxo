@@ -3130,7 +3130,7 @@ footer a:hover {
 }
 
 .article-relatives svg path {
-  fill: $background_tertiary_color;
+  fill: $primary_button_color;
 }
 .article-votes-controls {
   display: flex;
@@ -3163,10 +3163,10 @@ footer a:hover {
   background-color: $secondary_button_color;
 }
 .article-vote path {
-  fill: $headings_primary;
+  fill: $headings_secondary;
 }
 .article-vote:hover {
-  background-color: $background_primary_color;
+  background-color: $containers_background_color;
 }
 .article-vote:hover path {
   fill: $headings_primary;
