@@ -3781,7 +3781,7 @@ footer a:hover {
   width: 100%;
 }
 .community-featured-posts {
-  background-color: $background_light_color;
+  padding-top: 120px;
 }
 .community-featured-posts .container {
   position: relative;
@@ -3814,7 +3814,7 @@ footer a:hover {
 .featured-posts-item {
   border-radius: 8px;
   padding: 30px;
-  background: $background_secondary_color;
+  background: $background_tertiary_color;
   width: calc(33.3% - 20px);
 }
 .featured-posts-item a {
@@ -3840,12 +3840,24 @@ footer a:hover {
   vertical-align: baseline;
 }
 
+@media (max-width: 1279px) {
+  .community-featured-posts {
+    padding-top: 100px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .community-featured-posts {
+    padding-top: 80px;
+  }
   .featured-posts-item {
     width: calc(50% - 15px);
   }
 }
 @media (max-width: 767px) {
+  .community-featured-posts {
+    padding-top: 60px;
+  }
   .featured-posts {
     margin-top: 35px;
     gap: 20px;
