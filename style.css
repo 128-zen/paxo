@@ -3820,12 +3820,11 @@ footer a:hover {
 .featured-posts-item a {
   display: block;
   width: fit-content;
-  color: $headings_primary;
 }
 .featured-posts-btn {
   cursor: pointer;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 400;
 }
 .featured-posts-item-body {
   max-height: 67px;
