@@ -3128,6 +3128,10 @@ footer a:hover {
     padding-right: 20px;
   }
 }
+
+.article-relatives svg path {
+  fill: $background_tertiary_color;
+}
 .article-votes-controls {
   display: flex;
   justify-content: center;
@@ -3139,7 +3143,7 @@ footer a:hover {
   padding: 40px;
   text-align: center;
   margin-top: 40px;
-  background: $background_secondary_color;
+  background: $background_tertiary_color;
 }
 
 .article-votes a {
