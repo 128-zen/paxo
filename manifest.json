@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.59",
+  "version": "1.0.60",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -62,7 +62,7 @@
           "type": "color",
           "description": "Choose heading primary color",
           "label": "Heading Primary Color",
-          "value": "#111"
+          "value": "#121722"
         },
         {
           "identifier": "headings_secondary",
