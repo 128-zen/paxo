@@ -4675,9 +4675,6 @@ footer a:hover {
   .collapsible-nav-list {
       margin-right: 30px;
   }
-  .collapsible-nav-list li {
-    margin: 10px 0;
-  }
   .collapsible-nav-list li.current {
     display: block;
   }
