@@ -1835,15 +1835,11 @@ footer a:hover {
   width: calc(33.3% - 20px);
   padding: 30px;
   border-radius: 8px;
-  background-color: $background_primary_color;
+  background-color: $background_tertiary_color;
 }
 
 .categories__section > a {
   width: fit-content;
-}
-
-.categories__section h6 > a {
-  color: $headings_secondary;
 }
 
 .categories__item:nth-child(n+7) {
@@ -1866,16 +1862,8 @@ footer a:hover {
   flex: 0 0 auto;
 }
 
-.categories__item li a {
-  color: $body_secondary;
-}
-
-.categories__item li a:hover, .categories__section h6 > a:hover {
-  color: $hover_link_color;
-}
-
 .categories__item li svg path {
-  fill: $body_secondary;
+  fill: $hover_link_color;
 }
 
 .categories__item li:nth-child(3) {
@@ -2499,7 +2487,7 @@ footer a:hover {
   line-height: 1.4;
 }
 
-.category-page__article > div:last-of-type, .section-page__article > div:last-of-type, .featured-posts-btn {
+.category-page__article > div:last-of-type, .section-page__article > div:last-of-type, .featured-posts-btn, .categories__section div:last-of-type {
   position: relative;
   display: flex;
   gap: 15px;
@@ -2509,7 +2497,7 @@ footer a:hover {
   transition: all .3s ease;
 }
 
-.category-page__article > div:last-of-type a, .section-page__article > div:last-of-type a, .featured-posts-btn a {
+.category-page__article > div:last-of-type a, .section-page__article > div:last-of-type a, .featured-posts-btn a, .categories__section div:last-of-type a {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -2518,7 +2506,7 @@ footer a:hover {
   height: 100%;
 }
 
-.category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
+.category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg, .categories__section div:last-of-type:hover svg {
   transform: rotate(45deg);
 }
 
