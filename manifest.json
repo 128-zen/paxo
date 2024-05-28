@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -422,6 +422,13 @@
           "description": "Choose the color for backgroung image in the banner",
           "label": "Background Image Color",
           "value": "#D8DCFD"
+        },
+        {
+          "identifier": "bg_svg_color2",
+          "type": "color",
+          "description": "Choose the color for backgroung image in the banner",
+          "label": "Background Image Color 2",
+          "value": "#404EED"
         }
       ]
     },
@@ -563,7 +570,7 @@
           "value": "#"
         },
         {
-          "identifier": "bg_svg_color2",
+          "identifier": "bg_svg_color3",
           "type": "color",
           "description": "Choose the color for backgroung image in the Promoted articles section",
           "label": "Background Image Color",

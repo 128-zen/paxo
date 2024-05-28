@@ -1079,6 +1079,28 @@ ul {
   background-color: $background_primary_color;
 }
 
+.submit-request .container div, .submit-request h2, .submit-request p {
+  position: relative;
+  z-index: 4;
+}
+
+.submit-request svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.submit-request svg:last-child {
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.submit-request svg path {
+  fill: $secondary_button_color;
+}
+
 .submit-request h2 {
   margin-bottom: 20px;
   color: $headings_secondary;
@@ -1413,6 +1435,10 @@ footer a:hover {
 
 .hero > svg path {
   fill: $bg_svg_color1;
+}
+
+.hero > svg path:nth-of-type(7), .hero > svg path:nth-of-type(8) {
+  fill: $bg_svg_color2;
 }
 
 @media (max-width: 1279px) {
@@ -2053,7 +2079,7 @@ footer a:hover {
 }
 
 .promoted-articles svg path {
-  fill: $bg_svg_color2;
+  fill: $bg_svg_color3;
 }
 
 .promoted-articles__head {
