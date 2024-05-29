@@ -48,7 +48,7 @@
           "type": "color",
           "description": "Choose tertiary background color",
           "label": "Background Tertiary Color",
-          "value": "#F1F4F7"
+          "value": "rgba(216, 220, 253, 0.40)"
         },
         {
           "identifier": "containers_background_color",
