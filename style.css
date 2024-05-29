@@ -1235,6 +1235,7 @@ footer a:hover {
   }
   .footer__bottom p {
     text-align: center;
+    max-width: 80%;
   }
 }
 
@@ -1453,10 +1454,19 @@ footer a:hover {
   .hero .container {
     padding-top: 168px;
   }
+  .hero > svg {
+    left: -80px;
+  }
+  .hero > svg:last-child {
+    right: -80px;
+  }
 }
 @media (max-width: 767px) {
   .hero .container {
     padding-top: 148px;
+  }
+  .hero > svg {
+    display: none;
   }
   .hero__content {
     max-width: 595px;
@@ -1910,10 +1920,6 @@ footer a:hover {
   .categories {
     padding-top: 80px;
   }
-  .categories__head {
-    flex-direction: column;
-    gap: 20px;
-  }
   .categories__sections {
     margin-top: 40px;
     justify-content: center;
@@ -1926,6 +1932,10 @@ footer a:hover {
 @media (max-width: 767px) {
   .categories {
     padding-top: 60px;
+  }
+  .categories__head {
+    flex-direction: column;
+    gap: 20px;
   }
   .categories__sections {
     gap: 20px;
@@ -1942,7 +1952,7 @@ footer a:hover {
 /* Find Solution */
 
 .find-solution {
-  padding-bottom: 360px;
+  padding-top: 120px;
 }
 
 .find-solution > svg {
@@ -2018,15 +2028,15 @@ footer a:hover {
   transform: rotate(45deg);
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1279px) {
   .find-solution {
-    padding-bottom: 340px;
+    padding-top: 100px;
   }
 }
 
 @media (max-width: 1023px) {
   .find-solution {
-    padding-bottom: 320px;
+    padding-top: 100px;
   }
   .find-solution__items {
     margin-top: 40px;
@@ -2037,7 +2047,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .find-solution {
-    padding-bottom: 300px;
+    padding-top: 60px;
   }
   .find-solution__items {
     gap: 20px;
@@ -3916,7 +3926,8 @@ footer a:hover {
 }
 
 .homepage-activity {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 0;
 }
 
 @media (max-width: 1279px) {
@@ -3927,7 +3938,8 @@ footer a:hover {
     padding-top: 100px;
   }
   .homepage-activity {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 }
 
@@ -3939,7 +3951,8 @@ footer a:hover {
     padding-top: 80px;
   }
   .homepage-activity {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 0;
   }
 }
 
@@ -3951,7 +3964,8 @@ footer a:hover {
     padding-top: 60px;
   }
   .homepage-activity {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 0;
   }
 }
 
@@ -6566,6 +6580,27 @@ html[dir=rtl] .notification-left-aligned {
   border: 1px solid rgba(213, 218, 222, 0.8);
   border-radius: 12px;
   background-color: $background_light_color;
+}
+
+/***** Last Section on the homepage *****/
+
+.last-section {
+  padding-bottom: 360px;
+}
+@media (max-width: 1279px) {
+  .last-section {
+    padding-bottom: 340px;
+  }
+}
+@media (max-width: 1023px) {
+  .last-section {
+    padding-bottom: 320px;
+  }
+}
+@media (max-width: 767px) {
+  .last-section {
+    padding-bottom: 300px;
+  }
 }
 
 /***** BUTTON *****/
