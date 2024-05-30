@@ -1163,7 +1163,7 @@ ul {
   fill: $background_primary_color;
 }
 
-footer a:hover {
+.footer a:hover {
   color: $background_primary_color;
 }
 
@@ -2104,6 +2104,7 @@ footer a:hover {
 .promoted-articles__head .button {
   background-color: $containers_background_color;
   border: 1px solid $containers_background_color;
+  color: $headings_primary;
 }
 
 .promoted-articles__items {
@@ -3170,9 +3171,6 @@ footer a:hover {
 .article-votes a {
   font-weight: 600;
   font-size: 16px;
-}
-.article-votes a:hover {
-  color: $headings_primary;
 }
 .article-vote {
   padding: 8px 20px;
