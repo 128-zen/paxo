@@ -309,10 +309,10 @@ p {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 50px;
+    font-size: 44px;
   }
   h2 {
-    font-size: 42px;
+    font-size: 36px;
   }
   h3 {
     font-size: 30px;
@@ -3128,12 +3128,12 @@ ul {
 }
 .article-relatives {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 40px 0;
 }
-@media (min-width: 768px) {
+@media (max-width: 1023px) {
   .article-relatives {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 .article-relatives > * {
@@ -6507,7 +6507,7 @@ html[dir=rtl] .notification-left-aligned {
   display: none !important;
 }
 .dropdown-menu button {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 0.63px;
