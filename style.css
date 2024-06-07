@@ -1828,7 +1828,7 @@ ul {
 
 @media (max-width: 767px) {
   .introduction__items {
-    gap: 20px;
+    gap: 40px;
   }
   .introduction__item {
     max-width: 370px;
