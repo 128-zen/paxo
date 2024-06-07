@@ -16,13 +16,6 @@
           "value": "#686B71"
         },
         {
-          "identifier": "body_secondary",
-          "type": "color",
-          "description": "Choose body secondary color",
-          "label": "Body Secondary Color",
-          "value": "#C7CAD0"
-        },
-        {
           "identifier": "body_background_color",
           "type": "color",
           "description": "Choose background color for body. It is used on the inner pages",
@@ -51,10 +44,10 @@
           "value": "rgba(216, 220, 253, 0.40)"
         },
         {
-          "identifier": "containers_background_color",
+          "identifier": "cards_background_color",
           "type": "color",
-          "description": "Choose background color for containers",
-          "label": "Containers Background Color",
+          "description": "Choose background color for cards",
+          "label": "Cards Background Color",
           "value": "#fff"
         },
         {
@@ -75,21 +68,21 @@
           "identifier": "primary_button_color",
           "type": "color",
           "description": "Choose primary button background color",
-          "label": "Primary Button Background Color",
-          "value": "#D8DCFD"
-        },
-        {
-          "identifier": "secondary_button_color",
-          "type": "color",
-          "description": "Choose primary button background color",
           "label": "Secondary Button Background Color",
           "value": "#404EED"
         },
         {
+          "identifier": "secondary_button_color",
+          "type": "color",
+          "description": "Choose secondary button background color",
+          "label": "Primary Button Background Color",
+          "value": "#D8DCFD"
+        },
+        {
           "identifier": "hover_link_color",
           "type": "color",
-          "description": "Choose the primary color for the hover state of the links",
-          "label": "Hover Link Primary Color",
+          "description": "Choose the color for the hover state of the links",
+          "label": "Hover Link Color",
           "value": "#404EED"
         }
       ]
@@ -435,6 +428,13 @@
     {
       "label": "Homepage Introduction Section",
       "variables": [
+        {
+          "identifier": "show_second_section",
+          "type": "checkbox",
+          "description": "Show section",
+          "label": "Toggle Section",
+          "value": true
+        },
         {
           "identifier": "second_section_item1_img",
           "type": "file",
@@ -857,6 +857,13 @@
           "description": "Enter subtitle",
           "label": "Footer Subtitle",
           "value": "Our customer care team is here for you!"
+        },
+        {
+          "identifier": "footer_subtitle_color",
+          "type": "color",
+          "description": "Choose footer subtitle color",
+          "label": "Footer Subtitle Color",
+          "value": "#C7CAD0"
         },
         {
           "identifier": "footer_link_text",
