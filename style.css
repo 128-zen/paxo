@@ -1088,17 +1088,16 @@ ul {
   position: absolute;
   left: 0;
   bottom: 0;
+  border-radius: 8px;
 }
 
 .submit-request svg:last-child {
-  position: absolute;
   left: auto;
   right: 0;
-  bottom: 0;
 }
 
 .submit-request svg path {
-  fill: $secondary_button_color;
+  fill: $primary_button_color;
 }
 
 .submit-request h2 {
