@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.74",
+  "version": "1.0.75",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -434,6 +434,23 @@
           "description": "Show section",
           "label": "Toggle Section",
           "value": true
+        },
+        {
+          "identifier": "second_section_count_columns",
+          "type": "list",
+          "label": "Count Columns",
+          "description": "Select the count of columns",
+          "value": "4",
+          "options": [
+            {
+              "label": "3",
+              "value": "3"
+            },
+            {
+              "label": "4",
+              "value": "4"
+            }
+          ]
         },
         {
           "identifier": "second_section_item1_img",

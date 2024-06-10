@@ -1786,14 +1786,12 @@ ul {
 }
 
 .introduction__items {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat($second_section_count_columns, 1fr);
   gap: 30px;
 }
 
 .introduction__item {
-  width: calc(25% - 22.5px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1819,15 +1817,14 @@ ul {
 
 @media (max-width: 1023px) {
   .introduction__items {
+    grid-template-columns: repeat(2, 1fr);
     gap: 60px;
-  }
-  .introduction__item {
-    width: calc(50% - 60px);
   }
 }
 
 @media (max-width: 767px) {
   .introduction__items {
+    grid-template-columns: repeat(1, 1fr);
     gap: 40px;
   }
   .introduction__item {
