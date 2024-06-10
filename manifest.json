@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.75",
+  "version": "1.0.76",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -532,6 +532,13 @@
           "description": "Enter section subtitle",
           "label": "Item 3 Subtitle",
           "value": "Discover everything you need to know to start your journey"
+        },
+        {
+          "identifier": "show_second_section_item4",
+          "type": "checkbox",
+          "description": "Show item 4",
+          "label": "Toggle Item 4",
+          "value": true
         },
         {
           "identifier": "second_section_item4_img",

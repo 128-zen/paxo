@@ -78,13 +78,15 @@
         <h5><a href="{{settings.second_section_item3_link}}">{{settings.second_section_item3_heading}}</a></h5>
         <p>{{settings.second_section_item3_subtitle}}</p>
       </div>
-      <div class="introduction__item fade-in-up">
-        <div>
-          <img src="{{settings.second_section_item4_img}}" alt="image">
+      {{#if settings.show_second_section_item4}}
+        <div class="introduction__item fade-in-up">
+          <div>
+            <img src="{{settings.second_section_item4_img}}" alt="image">
+          </div>
+          <h5><a href="{{settings.second_section_item4_link}}">{{settings.second_section_item4_heading}}</a></h5>
+          <p>{{settings.second_section_item4_subtitle}}</p>
         </div>
-        <h5><a href="{{settings.second_section_item4_link}}">{{settings.second_section_item4_heading}}</a></h5>
-        <p>{{settings.second_section_item4_subtitle}}</p>
-      </div>
+      {{/if}}
     </div>
   </div>
 </section>
