@@ -1,7 +1,7 @@
 {
   "name": "Paxo 128",
   "author": "128zen",
-  "version": "1.0.78",
+  "version": "1.0.79",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -68,14 +68,14 @@
           "identifier": "primary_button_color",
           "type": "color",
           "description": "Choose primary button background color",
-          "label": "Secondary Button Background Color",
+          "label": "Primary Button Background Color",
           "value": "#404EED"
         },
         {
           "identifier": "secondary_button_color",
           "type": "color",
           "description": "Choose secondary button background color",
-          "label": "Primary Button Background Color",
+          "label": "Secondary Button Background Color",
           "value": "#D8DCFD"
         },
         {
