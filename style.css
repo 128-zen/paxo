@@ -4051,7 +4051,10 @@ ul {
 }
 .post-overview-item {
   display: inline-block;
-  margin-top: 5px;
+}
+
+.striped-list-info .post-overview-item {
+  margin-top: 10px;
 }
 .striped-list .meta-group {
   margin: 10px 0;
